@@ -1,0 +1,371 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  overflow-x:hidden;
+}
+header{
+  background-color: blue;
+  height: 544px;
+}
+nav{
+  position: relative;
+  left: 60%;
+  margin: 5px;
+  padding: 5px;
+}
+.nav-item{
+  margin: 0px 5px;
+  padding:0px 5px;
+  color: white;
+  font-size: 13px;
+}
+.nav-item-active{
+  color: white;
+  border: 1px solid white;
+  background-color: white;
+  color: blue;
+  margin: 2px 4px;
+  padding: 2px 4px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 800;
+}
+.logo{
+  top: 10px;
+  margin-left: 10px;
+}
+.header-text{
+  position: relative;
+  top: 80px;
+  font-size: 25px;
+  color: white;
+  margin-left: 10px;
+}
+
+.header-text p{
+  font-size: 18px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.header-text img{
+  position: relative;
+  top: 15px;
+
+}
+.header-image{
+  position: relative;
+  left: 54%;
+  margin-top: -15%;
+
+}
+.companies{
+  margin: 20px;
+
+}
+.companies a{
+  text-decoration: none;
+  font-weight: 900;
+  font-family: 'Righteous', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  transition: all 0.1s;
+  margin-right: 1rem;
+  color: var(--black);
+
+}
+.api{
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Righteous', sans-serif;
+  margin-top: 20px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.card-logo{
+  justify-content: right;
+}
+.card-active{
+  padding:40px 10px;
+  border-radius: 5px;
+  background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+.card-head-active{
+  color: blue;
+  font-weight: bold;
+}
+.card-body{
+  font-size: 15px;
+  justify-items: center;
+}
+.card{
+  padding:40px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  align-self: normal;
+}
+.blog-heading{
+  margin: 40px;
+  margin-left: 30px;
+}
+.blog-cards{
+  margin-left: 50px;
+  display: flex;
+  gap: 350px;
+}
+.blog-content{
+  position: relative;
+  left: 100%;
+  margin-top: -117%;
+  padding: 58px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: var(--white);
+  border-radius: 1rem;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+.blog-content h6{
+  color: blue;
+  text-align: center;
+  margin-top: 4px;
+}
+.blog-content h3{
+  text-align: center;
+  font-weight: 900;
+}
+.blog-content small{
+  text-align: center;
+}
+.blog-bottom{
+  position: relative;
+  left: 118%;
+  top: -35px;
+
+}
+.blog-author{
+  font-size: 10px;
+  position: relative;
+  left: 73%;
+  top: -38px;
+}
+.faq-section{
+    display: flex;
+    background-color: rgb(209, 207, 207);
+    height: 324px;
+    margin-top: 4%;
+}
+.faq-content{
+  margin: 10px 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.faq-content h2{
+  margin: 20px; 
+}
+.feq-content2{
+  font-size: 10px;
+}
+.faq-content button{
+  text-align: center;
+  padding: 5px 10px;
+  margin: 5px 10px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: blue;
+  border: blue;
+  margin-top: 20px;
+}
+.faq-image img{
+  position: relative;
+  left: 23%;
+}
+.download-section{
+  display: flex;
+
+}
+.download-content{
+  margin-top: 140px;
+  margin-left: 20px;
+
+}
+.download-content span{
+  font-weight: normal;
+}
+.download-email{
+  margin-top: 140px;
+  position: relative;
+  left: 45%;
+}
+ .download-email form input { 
+  position: absolute;
+  z-index: 0;
+  border: none;
+  background-color: rgb(228, 227, 227);
+  margin-left: -14%;
+  padding-left: 20px;
+  padding-right: 230px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+}
+.download-email form button{
+  position: relative;
+    z-index: 1200;
+    border: none;
+    background-color: #4a31fc;
+    padding: 7px 22px;
+    border-radius: 20px;
+    margin-left: 250%;
+
+}
+.footer-section{
+  border: 2px solid blue;
+  background-color: blue;
+  display: flex;
+  margin-top: 40px;
+}
+.footer-left {
+  margin-left: 20px;
+
+}
+.footer-logo{
+  margin: 5px 10px ;
+}
+.list{
+  display: flex;
+  margin-left: 20px;
+
+}
+.list-items{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+.footer-right{
+  position: relative;
+  left: 33%;
+}
+.footer-logos{
+  margin:2px 4px;
+}
+.logos-list{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 2px 4px;
+}
+/* Responsive Design */
+@media screen and (min-width: 425px) and (max-width: 1024px)  {
+  nav{
+    position: relative;
+    left: 35%;
+    font-size: 12px;
+  }
+  .nav-item{
+    font-size: 12px;
+  }
+  header{
+    height: 300px;
+    position: sticky;
+  }
+  .header-text{
+    font-size: 15px;
+  }
+  .header-text p{
+    font-size: 10px;
+  }
+  .header-image{
+    height: 262px;
+    width: inherit;
+    right: 200vh;
+    top: -20px;
+  }
+  .companies a{
+    font-size: 1.2rem;
+  }
+  .api{
+    font-size: 15px;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 30px 15px 20px;
+
+  }
+  .card{
+    padding:8px 30px 15px 20px;
+    border-radius: 5px;
+    background-color: var(--white);
+      border-radius: 1rem;
+      box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+      width: 164px;
+      margin-bottom: 10px;
+    
+  }
+  .blog-heading{
+    font-size: 10px;
+    display: block;
+  }
+  .blog-cards{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 5px;
+  }
+  .faq-section{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    height: auto;
+
+  }
+  .faq-image img{
+    display: none;
+  }
+  .download-email{
+    left: auto;
+  }
+  .download-content{
+    font-size: 10px;
+    margin: 20px;
+  }
+  .footer-right{
+    left: inherit;
+  }
+  .footer-logos{
+    margin: 5px;
+    padding: 5px;
+  }
+  .list-items{
+    font-size: 10px;
+  }
+  .footer-section{
+    width: inherit;
+  }
+
+
+
+  
+}
